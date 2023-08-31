@@ -16,6 +16,7 @@ def main():
   num2=st.number_input("Enter the Number 2 ")
   num3=st.number_input("Enter the number 3")
   if st.button("find"):
-    largest(num1,num2,num3)
+    large=largest(num1,num2,num3)
+    st.write(f"The Largest Number is {large}")
 main()
 
